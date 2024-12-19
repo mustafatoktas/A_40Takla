@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">40 Takla</string>
+
+    <!-- AboutScreen Icerigi -->
+    <string name="versiyon">Versiyon %1$s</string>
+    <string name="tamam">Tamam</string>
+    <string name="kullanılan_kutuphaneler_baslik">Kullanılan Kütüphaneler</string>
+    <string name="kullanılan_kutuphaneler_icerik">Bu uygulamanın geliştirilmesinde yararlanılan 3. parti açık kaynak kütüphaneler listelenmiştir.</string>
+    <string name="arkadaslariniza_ve_ailenize_onerin">Arkadaşlarınıza ve ailenize önerin!</string>
+    <string name="iletisime_gecebilirsiniz">Sorularınız, önerileriniz veya bulduğunuz hatalar için iletişime geçebilirsiniz!</string>
+    <string name="mustafa_toktasin_gelistirdigi">Mustafa TOKTAŞ\'ın geliştirdiği "40 Takla" isimli uygulamanın Github Linki: %1$s</string>
+    <string name="eposta_uygulamasi_bulunamadi">E-posta uygulaması bulunamadı</string>
+    <string name="paylasim_yapilamadi">Paylaşım yapılamadı</string>
+    <string name="bilgi">Bilgi</string>
+    <string name="kutuphaneler">Kütüphaneler</string>
+    <string name="kirk_takla_hakkinda">40 Takla Hakkında</string>
+    <string name="app_name_with_version">40 Takla %1$s</string>
+
+</resources>

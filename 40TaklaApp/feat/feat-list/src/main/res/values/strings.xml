@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ListScreen Icerigi -->
+    <string name="takla_attiranlar">Takla Attıranlar</string>
+    <string name="kisi_sayisi">Taklalarını ölümsüzleştiren %1$d kişi bulundu</string>
+    <string name="tiklayinca_bir_sey_olmuyor">Tıklayınca bir şey olmuyor</string>
+    <string name="yenile">Yenile</string>
+    <string name="guncellendi">Güncellendi</string>
+    <string name="sadece_hata">Bir hata oluştu !</string>
+
+</resources>

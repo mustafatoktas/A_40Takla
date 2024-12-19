@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainScreen Icerigi -->
+    <string name="takla_attir">Takla Attır (%1$d/40)</string>
+    <string name="uygulamayi_kapat">Uygulamayı kapat</string>
+    <string name="root_tespit_edildi">Root Tespit Edildi</string>
+    <string name="cihaz_bir_emulator_uzerinde_calisiyor">Cihaz Bir Emülatör Üzerinde Çalışıyor</string>
+    <string name="root_icerigi">Güvenliğinizi ve uygulama bütünlüğünü korumak için, bu uygulama root erişimi olan cihazlarda çalışmamaktadır. Lütfen cihazınızı root\'suz bir duruma getirerek tekrar deneyin.</string>
+    <string name="emulator_icerigi">Bu uygulama gerçek cihazlar üzerinde çalışmak üzere tasarlanmıştır. Emülatör kullanımı tespit edildi. Lütfen gerçek bir cihazda çalıştırarak tekrar deneyin.</string>
+    <string name="baslamak_bitirmenin_yarisidir">Başlamak bitirmenin yarısıdır…</string>
+    <string name="iyi_gidiyorsun">İyi gidiyorsun…</string>
+    <string name="bes_takla_bitti_bile">5 takla bitti bile…</string>
+    <string name="yuzde_25_i_tamamlandi">%25\'i tamamladın, harika !</string>
+    <string name="pes_etmek_yok_devam">Pes etmek yok, devam !</string>
+    <string name="yolu_yariladin">Yolu yarıladın, bravo!</string>
+    <string name="sadece_15_takla_kaldi">Sadece 15 takla kaldı, azimle devam !</string>
+    <string name="yuzde_75_tamamlandi">%75 tamamlandı, son düzlüğe girdin !</string>
+    <string name="bitirmek_icin_sadece_5_takla_daha">Bitirmek için sadece 5 takla daha !</string>
+    <string name="son_1_takla_daha">Son 1 takla daha…</string>
+    <string name="yeniden_dene">Yeniden Dene</string>
+
+    <string name="daha_once_isim_kaydedilmis">Daha önce kayıt yaptığınız için bu sefer kıyak geçiyoruz 😏 Bir daha 40 takla atmayın 😵‍💫</string>
+
+</resources>

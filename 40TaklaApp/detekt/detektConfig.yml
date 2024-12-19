@@ -1,0 +1,14 @@
+formatting:
+  NoWildcardImports:
+    active: false
+
+style:
+  WildcardImport:
+    active: false
+  MagicNumber:
+    active: true
+    excludes: ['**/theme/**']
+
+naming:
+  FunctionNaming:
+    active: false

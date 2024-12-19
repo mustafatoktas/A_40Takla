@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CongratulationScreen Icerigi -->
+    <string name="tebrikler">Tebrikler !</string>
+    <string name="tebrikler_icerigi">Uygulamaya 40 takla attırdınız, şovunuzu yaptınız, tüm zamanların efsanesi oldunuz! Ama bu başarınızı CV\'ye yazamıyoruz 😅 Gerçek hayatta da kendi şovunuzu yapın! Unutmayın: En büyük zaferler, kendi yolunuzu çizerken kazanılır! 💪</string>
+    <string name="yeniden_baslatiliyor">Yeniden başlatılıyor…</string>
+    <string name="listeyi_gor">Listeyi Gör</string>
+    <string name="isim_soyisim">İsim Soyisim</string>
+    <string name="taklalari_olumsuzlestir">Taklaları Ölümsüzleştir</string>
+    <string name="kirk_takla_attiranlar_listesine_katil">40 Takla Attıranlar Listesine Katıl</string>
+    <string name="yeniden_dene">Yeniden Dene</string>
+
+</resources>

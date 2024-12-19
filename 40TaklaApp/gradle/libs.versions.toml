@@ -1,0 +1,94 @@
+[versions]
+agp = "8.7.3"
+kotlin = "2.1.0"
+coreKtx = "1.15.0"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.12.01"
+#ksp
+ksp = "2.1.0-1.0.29"
+#hilt
+hilt = "2.52"
+hiltNavigation = "1.2.0"
+#splash screen
+coreSplashscreen = "1.0.1"
+#coroutines
+coroutines = "1.8.1"
+#navigation
+navigationCompose = "2.8.5"
+#serialization (navigation için)
+kotlinxSerializationJson = "1.7.1"
+#özelleştirilebilir snackbar
+sonner = "0.3.8"
+#konfetti
+konfetti = "2.0.5"
+#pull to refresh
+pullrefresh = "1.4.0-beta03"
+#coil
+coil = "2.7.0"
+#firebase
+firebase = "33.7.0"
+#firebase için google servisleri
+googleServices = "4.4.2"
+#detekt
+detekt = "1.23.5"
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+#hilt
+hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt"}
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt"}
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigation"}
+hilt-android-gradle-plugin = { group = "com.google.dagger", name = "hilt-android-gradle-plugin", version.ref = "hilt" }
+#splash screen
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreen" }
+#coroutines
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+#navigation
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+#serialization (navigation için)
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+#lifecycle
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
+#özelleştirilebilir snackbar
+sonner = { group = "io.github.dokar3", name = "sonner", version.ref = "sonner" }
+#konfetti
+konfetti = { group = "nl.dionsegijn", name = "konfetti-compose", version.ref = "konfetti" }
+#pull to refresh
+materii-pullrefresh = { group = "dev.materii.pullrefresh", name = "pullrefresh", version.ref = "pullrefresh" }
+#coil
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+#firebase
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth-ktx" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore-ktx" }
+#detekt
+detekt = { group = "io.gitlab.arturbosch.detekt", name = "detekt-formatting", version.ref = "detekt" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+#ksp
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+#hilt
+hilt-plugin = { id = 'com.google.dagger.hilt.android', version.ref = "hilt"}
+#serialization (navigation için)
+kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+#firebase için google servisleri
+google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+#detekt
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }
